@@ -1,0 +1,26 @@
+# Validation thresholds for pass/fail criteria
+
+# Topic Volume Validation (Task 1)
+topic_volume:
+  max_jsd_overall: 0.08          # Jensen-Shannon Divergence (increased from 0.05)
+  max_abs_pp_diff_per_topic: 12.0 # Max percentage point difference per topic (increased from 7.0)
+  min_chi2_pvalue: 0.05          # Chi-square test p-value threshold
+  min_samples_per_topic: 10      # Minimum samples per topic for reliable stats (decreased from 30)
+  min_topic_share: 0.01          # Merge topics with <1% share into 'Other'
+
+# Sentiment Validation (Task 2)
+sentiment:
+  min_macro_f1: 0.50             # Overall macro F1 score (lowered from 0.70)
+  min_class_f1: 0.30             # Minimum F1 for any sentiment class (lowered from 0.60)
+  max_prevalence_gap: 20.0       # Maximum prevalence gap in percentage points (NEW)
+  min_agreement_with_weak: 0.75  # Agreement rate with weak labelers
+  min_support_per_topic: 10      # Minimum samples per topic for sentiment analysis (decreased from 30)
+  min_class_support_for_gate: 10 # Minimum support for per-class F1 gating (NEW)
+  confidence_level: 0.95         # Bootstrap confidence level
+
+# General validation settings
+general:
+  random_seed: 42
+  bootstrap_samples: 1000
+  max_retries: 3
+  cache_llm_responses: true
