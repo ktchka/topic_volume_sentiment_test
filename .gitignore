@@ -37,6 +37,10 @@ Thumbs.db
 *.log
 logs/
 
+# ML models 
+# data/artifacts/ml_model.pkl
+# data/artifacts/ml_training_report.json
+
 # Jupyter Notebook
 .ipynb_checkpoints
 

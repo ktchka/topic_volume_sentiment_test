@@ -15,13 +15,12 @@ logger = setup_logging()
 class SimpleReportGenerator:
     """Generates simple validation reports."""
     
-    def load_artifacts(self, artifacts_dir: str) -> Dict[str, Any]:
+    def load_artifacts(self, artifacts_dir: str, classifications_file: str = "data/derived/classifications.json") -> Dict[str, Any]:
         """Load all validation artifacts."""
         artifacts = {}
         
         # Load classifications (contains per-topic sentiment analysis)
-        # Try both absolute and relative paths
-        classifications_file = "data/derived/classifications.json"
+        # Try the provided path first, then fallback to derived path
         if not os.path.exists(classifications_file):
             classifications_file = os.path.join(os.path.dirname(artifacts_dir.rstrip('/')), "derived", "classifications.json")
         
@@ -32,7 +31,16 @@ class SimpleReportGenerator:
             logger.warning(f"Classifications file not found: {classifications_file}")
         
         # Load volume validation
-        volume_file = os.path.join(artifacts_dir, "volume_validation.json")
+        # Determine which volume validation file to use based on classification mode
+        if 'classifications' in artifacts:
+            classification_mode = artifacts['classifications'].get('metadata', {}).get('classification_mode', 'openai')
+            if classification_mode == 'ml_tfidf':
+                volume_file = os.path.join(artifacts_dir, "volume_validation_ml.json")
+            else:
+                volume_file = os.path.join(artifacts_dir, "volume_validation.json")
+        else:
+            volume_file = os.path.join(artifacts_dir, "volume_validation.json")
+        
         if os.path.exists(volume_file):
             logger.info(f"Loading volume validation from {volume_file}")
             artifacts['volume'] = load_json_data(volume_file)
@@ -258,6 +266,7 @@ class SimpleReportGenerator:
 @app.command()
 def main(
     artifacts_dir: str = typer.Option(..., "--artifacts", "-a", help="Directory containing validation artifacts"),
+    classifications_file: str = typer.Option("data/derived/classifications.json", "--classifications", "-c", help="Classifications file path"),
     output_file: str = typer.Option("report.md", "--output", "-o", help="Output markdown file")
 ):
     """Generate simple validation report."""
@@ -266,7 +275,7 @@ def main(
     
     # Load artifacts
     generator = SimpleReportGenerator()
-    artifacts = generator.load_artifacts(artifacts_dir)
+    artifacts = generator.load_artifacts(artifacts_dir, classifications_file)
     
     if not artifacts:
         logger.error("No validation artifacts found!")

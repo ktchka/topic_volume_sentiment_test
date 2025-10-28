@@ -1,0 +1,68 @@
+{
+  "train_samples": 542,
+  "test_samples": 136,
+  "test_accuracy": 0.9485294117647058,
+  "classification_report": {
+    "App Stability & Performance": {
+      "precision": 1.0,
+      "recall": 0.9629629629629629,
+      "f1-score": 0.9811320754716981,
+      "support": 27.0
+    },
+    "Booking Process Issues": {
+      "precision": 0.8,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.851063829787234,
+      "support": 22.0
+    },
+    "Cancellation & Refunds": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "Customer Service": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Interface & Navigation": {
+      "precision": 0.9473684210526315,
+      "recall": 1.0,
+      "f1-score": 0.972972972972973,
+      "support": 18.0
+    },
+    "Payment Problems": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "Search & Filtering": {
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9285714285714286,
+      "support": 14.0
+    },
+    "Unexpected Charges & Pricing": {
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9787234042553191,
+      "support": 24.0
+    },
+    "accuracy": 0.9485294117647058,
+    "macro avg": {
+      "precision": 0.9594924812030075,
+      "recall": 0.9073698292448292,
+      "f1-score": 0.9283436781680459,
+      "support": 136.0
+    },
+    "weighted avg": {
+      "precision": 0.953328173374613,
+      "recall": 0.9485294117647058,
+      "f1-score": 0.9490734438664634,
+      "support": 136.0
+    }
+  }
+}

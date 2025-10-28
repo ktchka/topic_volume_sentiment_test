@@ -1,6 +1,6 @@
 # Simple Topic Volume & Sentiment Validation Makefile
 
-.PHONY: help setup classify validate-volume generate-report all clean
+.PHONY: help setup classify classify-rules classify-ml train-ml validate-volume generate-report compare all all-ml clean
 
 # Default target
 help:
@@ -9,11 +9,15 @@ help:
 	@echo ""
 	@echo "Available targets:"
 	@echo "  setup            - Install dependencies and create directories"
-	@echo "  classify         - Classify topics and validate sentiment (ONE API call)"
+	@echo "  classify         - Classify topics and validate sentiment (GPT-4o-mini)"
 	@echo "  classify-rules   - Classify topics and validate sentiment with rules fallback"
+	@echo "  train-ml         - Train ML model on GPT-labeled data"
+	@echo "  classify-ml      - Classify using trained ML model (TF-IDF + LR)"
 	@echo "  validate-volume  - Validate topic volume distribution"
 	@echo "  generate-report  - Generate validation report"
-	@echo "  all              - Run complete validation pipeline"
+	@echo "  compare          - Compare GPT vs ML classification methods"
+	@echo "  all              - Run complete validation pipeline (GPT)"
+	@echo "  all-ml           - Run complete validation pipeline (ML)"
 	@echo "  clean            - Clean up generated files"
 	@echo ""
 	@echo "Prerequisites:"
@@ -47,6 +51,22 @@ classify-rules:
 		--mode rules
 	@echo "Classification complete!"
 
+# Train ML model on GPT-labeled data
+train-ml:
+	@echo "Training ML model on GPT-labeled data..."
+	uv run python src/classify_ml.py train \
+		--gpt-results data/derived/classifications.json \
+		--output data/artifacts/ml_training_report.json
+	@echo "ML model training complete!"
+
+# Classify using trained ML model
+classify-ml:
+	@echo "Classifying topics using trained ML model..."
+	uv run python src/classify_ml.py classify \
+		--input booking_reviews_678_varlen_clean.json \
+		--output data/derived/classifications_ml.json
+	@echo "ML classification complete!"
+
 # Validate topic volume distribution
 validate-volume:
 	@echo "Validating topic volume distribution..."
@@ -64,6 +84,15 @@ generate-report:
 		--output report.md
 	@echo "Report generated: report.md"
 
+# Compare classification methods
+compare:
+	@echo "Comparing classification methods..."
+	uv run python src/compare_methods.py \
+		--gpt data/derived/classifications.json \
+		--ml data/derived/classifications_ml.json \
+		--output data/artifacts/method_comparison.json
+	@echo "Comparison complete!"
+
 # Run complete validation pipeline
 all: setup classify validate-volume generate-report
 	@echo "Complete validation pipeline finished!"
@@ -73,6 +102,22 @@ all: setup classify validate-volume generate-report
 all-rules: setup classify-rules validate-volume generate-report
 	@echo "Complete validation pipeline (rules) finished!"
 	@echo "Check report.md for results"
+
+# Run complete validation pipeline with ML
+all-ml: setup classify train-ml classify-ml
+	@echo "Training ML model..."
+	@make train-ml
+	@echo "Running ML classification and validation..."
+	uv run python src/validate_volume_simple.py \
+		--input data/derived/classifications_ml.json \
+		--reference results_booking_reviews_678_varlen_clean.json \
+		--output data/artifacts/volume_validation_ml.json
+	uv run python src/generate_report.py \
+		--artifacts data/artifacts/ \
+		--classifications data/derived/classifications_ml.json \
+		--output report_ml.md
+	@echo "Complete ML validation pipeline finished!"
+	@echo "Check report_ml.md for results"
 
 # Clean up generated files
 clean:
