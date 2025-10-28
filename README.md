@@ -4,8 +4,6 @@ This project validates a system that classifies Booking.com reviews into 9 topic
 
 ## Current implementation
 
-## Current implementation
-
 In this project, I built a simplified topic classification and sentiment validation system for Booking.com customer reviews. The system processes 678 review tickets and performs two main tasks:
 
 **Task 1: Topic Classification**  
