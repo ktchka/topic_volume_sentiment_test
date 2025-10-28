@@ -49,6 +49,7 @@ Volume validation uses simple percentage point comparison (threshold: 15pp per t
 - Sentiment validation: 100% (rule-based)
 - Speed: 100x faster, $0 cost
 
+### Methods Comparison
 
 | Method | Topic Accuracy | Sentiment Validation | Speed | Cost | When to Use |
 |--------|----------------|---------------------|-------|------|-------------|
