@@ -3,12 +3,10 @@ Statistical metrics for topic volume and sentiment validation.
 """
 
 import numpy as np
-import pandas as pd
 from scipy import stats
 from scipy.spatial.distance import jensenshannon
 from sklearn.metrics import (
     confusion_matrix, 
-    classification_report, 
     precision_recall_fscore_support,
     accuracy_score
 )

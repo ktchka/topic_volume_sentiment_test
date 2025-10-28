@@ -159,7 +159,7 @@ class SimpleReportGenerator:
             
             # Sentiment distribution
             sentiment_dist = data.get('sentiment_distribution', {})
-            section.append(f"- **Sentiment distribution**:")
+            section.append("- **Sentiment distribution**:")
             for sentiment, count in sorted(sentiment_dist.items(), key=lambda x: x[1], reverse=True):
                 percentage = (count / data['total_tickets'] * 100) if data['total_tickets'] > 0 else 0
                 section.append(f"  - {sentiment}: {count} ({percentage:.1f}%)")
@@ -193,7 +193,7 @@ class SimpleReportGenerator:
                 
                 if failed_topics:
                     recommendations.append("### Topic Volume Issues\n")
-                    recommendations.append(f"The following topics have distribution differences exceeding the threshold:\n")
+                    recommendations.append("The following topics have distribution differences exceeding the threshold:\n")
                     for topic in failed_topics:
                         recommendations.append(f"- **{topic}**")
                     recommendations.append("\n**Actions:**")
@@ -273,7 +273,7 @@ def main(
         return
     
     # Generate report
-    report_content = generator.generate_report(artifacts, output_file)
+    generator.generate_report(artifacts, output_file)
     
     logger.info("Report generation complete!")
 

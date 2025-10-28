@@ -2,28 +2,82 @@
 
 This project validates a system that classifies Booking.com reviews into 9 topics and validates existing sentiment labels.
 
-## Overview
+## Current implementation
 
-The system processes 678 Booking.com review tickets and:
-1. **Classifies topics** using OpenAI API (ONE API call per ticket)
-2. **Validates existing sentiment labels** - checks if the pre-labeled sentiment makes sense
-3. **Validates topic volume distribution** against reference distributions
+In this project, I built a simplified topic classification and sentiment validation system for Booking.com customer reviews. The system processes 678 review tickets and performs two main tasks:
 
-## Key Simplifications
+**Task 1: Topic Classification**  
+I implemented a unified classifier that uses GPT-4o-mini to classify reviews into 9 predefined topics (Unexpected Charges & Pricing, App Stability & Performance, Booking Process Issues, Customer Service, Payment Problems, Search & Filtering, Cancellation & Refunds, Interface & Navigation, and Data & Privacy). The key optimization is that topic classification and sentiment validation occur in a single API call rather than separate requests, reducing costs by 50%.
 
-- **ONE API call per ticket** - Classifies topic AND validates sentiment in single call
-- **Topics defined in code** - No complex YAML configuration files
-- **Simple validation** - Just pass/fail based on reasonable thresholds
-- **No complex metrics** - Focus on practical validation results
+**Task 2: Sentiment Validation**  
+Instead of classifying sentiment from scratch, the system validates existing sentiment labels (Positive, Negative, Neutral) by asking GPT-4o-mini whether the pre-labeled sentiment is correct for each review. This approach returns a boolean validation result with confidence scores.
 
-## Data Structure
+**Key Technical Features:**
+- **Response caching**: All API responses are cached using MD5 hashes to avoid redundant calls and reduce costs
+- **Fallback mechanism**: Rule-based classification using keyword matching when API calls fail
+- **Topic merging**: Automatically merges the 5 least popular topics into an "Other" category to simplify analysis
+- **Per-topic sentiment analysis**: Calculates sentiment distribution (Positive/Negative/Neutral counts) and validation accuracy for each topic
+- **Volume validation**: Compares the system's topic distribution against reference data with a 15 percentage point threshold per topic
+
+**Architecture:**
+The system is structured into three main components: 
+- `classify_and_validate.py` (unified classification),
+- `validate_volume_simple.py` (topic distribution validation),
+- `generate_report.py` (markdown report generation). 
+Configuration is simplified with topics defined directly in code rather than YAML files, and the pipeline is orchestrated through a Makefile with targets for classification, validation, and reporting.
+
+**Validation Approach:**
+Volume validation uses simple percentage point comparison (threshold: 15pp per topic) for interpretability and actionability - stakeholders can immediately understand which topics diverge and by how much. Sentiment validation focuses on accuracy (percentage of correct validations) and confidence scores rather than distribution matching, as the validation task is to check if existing labels are correct, not to match artificial distributions.
+
+### Results
+
+**Classification Performance:**
+- **Total tickets processed**: 678
+- **Classification mode**: GPT-4o-mini with OpenAI API
+- **Average topic confidence**: 0.858
+- **Average sentiment confidence**: 0.887
+
+**Volume Validation:**
+- **Status**: ✅ PASS
+- **All 9 topics**: Within 15 percentage point threshold
+- **Largest difference**: 10.2pp (Search & Filtering)
+
+**Sentiment Validation:**
+- **Overall accuracy**: 81.6% (553/678 correct)
+- **Best performing topic**: Customer Service (88.8% accuracy)
+- **Lowest performing topic**: App Stability & Performance (73.3% accuracy)
+
+**Topic Distribution:**
+- **Top 4 topics**: Other (45.1%), App Stability (19.9%), Pricing (17.8%), Customer Service (17.1%)
+- **Merged into "Other"**: 5 least common topics (Cancellation & Refunds, Payment Problems, Search & Filtering, Interface & Navigation, Booking Process Issues)
+
+**Key Findings:**
+- System successfully validates topic volume distribution against reference data
+- Sentiment validation accuracy varies by topic (73-89%), with Customer Service showing highest agreement
+- GPT-4o-mini demonstrates strong confidence (0.89 average) in sentiment validation decisions
+
+## Important note
+
+For production I'd make a different design:
+Firstly, I'd use tiktoken to estimate costs for labeling a representative sample (e.g., 3000 tickets). For production I'd use Gpt-4o-mini as it is 16x cheaper and sufficient for classification tasks. 
+
+Although GPT models are able to achieve high accuracy as expert annotators and labellers (https://arxiv.org/html/2403.09097v1#S7, https://medium.com/data-science/bootstrapping-labels-with-gpt-4-8dc85ab5026d), after GPT labeling, I'd have humans validate a random sample (5-10%) to check quality and calculate inter-annotator agreement (Cohen's kappa) between GPT and humans. 
+
+Then I'd train on high-confidence GPT labels first and have humans review low-confidence predictions to improve training data. 
+
+Depending on resources, I'd fine-tune sentence-transformers or use a BERT variant (DistilBERT or ALBERT). As part of a continuous improvement, I'd set up a flagging system for predictions with lower confidence for human review, use corrections to retrain model monthly or bi-monthly and conduct A/B tests before deployment. 
+
+
+## Technical details
+
+### Data Structure
 
 - **Input**: `booking_reviews_678_varlen_clean.json` (678 tickets)
 - **Reference**: `results_booking_reviews_678_varlen_clean.json` (gold standard analysis)
 - **Fields**: `original_message`, `message_text`, `sentiment__filter`
 - **Derived**: `topic__pred`, `topic_confidence`, `sentiment_validation`
 
-## 9 Topic Categories
+### 9 Topic Categories
 
 Topics are defined directly in code (no YAML needed):
 
@@ -37,28 +91,19 @@ Topics are defined directly in code (no YAML needed):
 8. **Interface & Navigation** - UI/UX issues and navigation problems
 9. **Data & Privacy** - Data handling and privacy concerns
 
-## Project Structure
-
-```
-src/
-  classify_and_validate.py  # ONE file: topics + sentiment validation
-  validate_volume_simple.py # Simple volume validation
-  generate_report.py        # Simple validation report
-  metrics.py                # Basic statistical metrics
-  utils.py                  # Common utilities
-data/
-  booking_reviews_678_varlen_clean.json  # Input data
-  results_booking_reviews_678_varlen_clean.json  # Reference data
-  derived/classifications.json           # Classification results
-  artifacts/volume_validation.json       # Volume validation results
-  artifacts/classification_cache.json    # API response cache
-```
+The 5 least common topics are merged into category 'Other'.
 
 ## Installation
 
-1. **Install dependencies:**
+1. **Run setup (installs dependencies and creates directories):**
+```bash
+make setup
+```
+
+Or manually:
 ```bash
 pip install -r requirements.txt
+mkdir -p data/derived data/artifacts
 ```
 
 2. **Set OpenAI API key (optional - for OpenAI classification):**
@@ -192,3 +237,4 @@ The system caches OpenAI API responses using MD5 hashes to avoid redundant API c
 - `data/derived/classifications.json` - Classification results
 - `data/artifacts/volume_validation.json` - Volume validation results
 - `report.md` - Human-readable validation report
+

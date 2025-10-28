@@ -33,21 +33,7 @@ env/
 ehthumbs.db
 Thumbs.db
 
-# Generated classification and validation files
-data/derived/
-data/artifacts/
-
-# All JSON files (generated outputs)
-*.json
-
-# But keep the input and reference data
-!booking_reviews_678_varlen_clean.json
-!results_booking_reviews_678_varlen_clean.json
-
-# Reports
-report.md
-
-# Logs
+# Cache files (but keep results for reviewers)
 *.log
 logs/
 
@@ -70,7 +56,8 @@ htmlcov/
 .dmypy.json
 dmypy.json
 
-# Keep directory structure but ignore contents
-!data/derived/.gitkeep
-!data/artifacts/.gitkeep
-
+# Keep these for reviewers to see results
+# data/derived/classifications.json
+# data/artifacts/volume_validation.json
+# data/artifacts/classification_cache.json
+# report.md

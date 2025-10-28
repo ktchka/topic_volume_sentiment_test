@@ -2,7 +2,6 @@
 Simple volume validation: check if topic distribution matches reference.
 """
 
-import json
 import typer
 from typing import Dict, List, Any
 from collections import Counter

@@ -6,12 +6,10 @@ import json
 import logging
 import hashlib
 import os
-from pathlib import Path
-from typing import Dict, List, Any, Optional, Tuple
+from typing import Dict, List, Any, Tuple
 import pandas as pd
 import numpy as np
 from scipy import stats
-from sklearn.metrics import confusion_matrix, classification_report
 import yaml
 
 

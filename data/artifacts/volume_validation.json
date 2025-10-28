@@ -1,0 +1,79 @@
+{
+  "overall_pass": true,
+  "max_difference_allowed": 15.0,
+  "topic_results": {
+    "Unexpected Charges & Pricing": {
+      "system_percentage": 17.846607669616517,
+      "reference_percentage": 15,
+      "difference": 2.8466076696165175,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "App Stability & Performance": {
+      "system_percentage": 19.911504424778762,
+      "reference_percentage": 10,
+      "difference": 9.911504424778762,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Booking Process Issues": {
+      "system_percentage": 15.781710914454278,
+      "reference_percentage": 25,
+      "difference": 9.218289085545722,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Customer Service": {
+      "system_percentage": 17.10914454277286,
+      "reference_percentage": 8,
+      "difference": 9.10914454277286,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Payment Problems": {
+      "system_percentage": 3.0973451327433628,
+      "reference_percentage": 0,
+      "difference": 3.0973451327433628,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Search & Filtering": {
+      "system_percentage": 10.176991150442479,
+      "reference_percentage": 0,
+      "difference": 10.176991150442479,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Cancellation & Refunds": {
+      "system_percentage": 2.949852507374631,
+      "reference_percentage": 5,
+      "difference": 2.050147492625369,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Interface & Navigation": {
+      "system_percentage": 13.126843657817108,
+      "reference_percentage": 13,
+      "difference": 0.12684365781710838,
+      "pass": true,
+      "threshold": 15.0
+    },
+    "Data & Privacy": {
+      "system_percentage": 0.0,
+      "reference_percentage": 0,
+      "difference": 0.0,
+      "pass": true,
+      "threshold": 15.0
+    }
+  },
+  "summary": {
+    "total_topics": 9,
+    "passed_topics": 9,
+    "failed_topics": 0
+  },
+  "metadata": {
+    "total_tickets": 678,
+    "topics_analyzed": 9,
+    "validation_timestamp": "unknown"
+  }
+}

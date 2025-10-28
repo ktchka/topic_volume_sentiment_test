@@ -1,0 +1,3224 @@
+{
+  "121ae199a6b6bfd076782c5d063875fb": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "a4ba45776ff2fbc370e3b9780caf1623": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "1e18bf783f8b73ac69f0c9f5bd5b5957": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "0befb73a0b65bde9a7378daedced6dc2": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7a8a57203154820dc1cfbef49bf95853": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "1cdfc0cef631a7fb327b214a8e8381a6": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "1c08c8e429de3aaa84bbaf383d28c3f5": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "ab0fc1aea25fd56327b51b81d9b71c9b": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6dd3bee3ce33432d55c5ba670951ffab": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ab991010eb04a5cec42799a4dd6c6012": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "52e40cc05b7d2b15d51418be57c9bd7d": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a9ecc7f1e142ebf4ef74b8915b5c18f7": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6e542f25be8ed71c2ccbdc42c383c010": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "8a6493b97993331263bb549554f305f8": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "91ed45a10308401c980f0f128d6b0196": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "c07b3e51091c773be0aeca378e3ea8aa": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e4980bae4f4588d9d9b6fbfc5cda9ece": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4ad269ca07b0d2d44daeea9d7ef2cdb4": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6571659a386c94781d19b5c48a280993": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "76135d4421542dcbd191226e69fa44d7": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "24bb64b92d30acd3de1827887fefef8c": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "17e5341eb047d712da174d215f6f7c1d": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "2c0b479161591a1e1bec8c181e26e1c7": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "826b5e7198eb3695f3281ffc12fee355": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a15125052e4fe0291a30278c8aa30066": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "5bf4733d5914852afb56aa9b27110908": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "659d8a7f850d7e79d1e4753332b395c7": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "e627dc45757aa3bce8a326cfb259980f": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "a8e6011d08ea68dc3fc7445dd5c37b98": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "f0b12b9f181d4a0d953f1183c5a7807f": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "e460da8cbe8bf857a4dac04d0dce9bc3": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "20e1829c59cebf5710f6ed52751f9144": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "acab3836dc77ce7707c058c2db29e7c4": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "627703f1b227c29ab852bc1afc995906": {
+    "topic": "Payment Problems",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "c5eb4eb99d9a4aeef2ac6d96521db19d": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "98dc5f67cbbfd8716a1f04240f85d522": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "43303c1d75edf4b12b0b779f0147c3b3": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7fa8362672fde3b8a0963e2d4a1deeea": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.85,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.8
+    },
+    "classification_method": "openai"
+  },
+  "8f0b1e8c7a15fd24b45f812e20fd3f04": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "278bd3325f6e79c60f7d5b1e6aa1ba9d": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "411529417e05bd855b35aeca499e1966": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "03eee0fd0d15f8d91ece13bfe0e17c48": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "78c85378b438e482de7537827a93c3fb": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c2ff1d3f4a3b895ab6b15d621e08b56b": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "7e5995d8f23d1d0c9b9c41987a810233": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "96c55f9b88a2199805f31aa6c7fc0dde": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "3b2e94ad1d1e266a37fe6ad22f8391d0": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b6592391ce339ab076498e876cf81674": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "eb495b3a6753872979c35d64518c112f": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "11a5d15a0036540659569d3ea3d203b4": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "1ad5053d8adcd6aecc0163bb42b5af6f": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "0198e4f676aaa2d03dd6407a8dab626a": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5cbe68318dd77941430c1e9501a1135a": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "81f2b705fcad354f1bebc944ca946408": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "073f8118b0619165d3b24f524b974d96": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "c66d3d080beff6f1f01dd11451543cd2": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6cae4962f944a7b7db677cb644f26202": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c7ed969108191db02f238582acb1f47e": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b15b06cced495e37e58ae4b6b8509b37": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "abee80d205c7fe11d5ecc5f2c68e0229": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "531b18858ee8f7b58e08baa3f8e333c4": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "c5e1584d5b7c245dbf765051077ff194": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "17802f898a034ad41d44961f02ec527c": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "96656f8adb25e33c5e91947f845f67f3": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "47d2efc82647f554a6085143a1bb7316": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "82ab9cdab9d075ae37fa5e1c08193fc9": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ad2bd8b5a214a7ef9949b7c9f0dcf309": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "dcde9db6b512b1773dea0658a17fb3d2": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8d4ec5569fd6bbc1cf7a90bd6732c0fa": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ba584f0fb5dd7266e40e4687bfb74973": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.8
+    },
+    "classification_method": "openai"
+  },
+  "883e4493ed229f64496c24ec0b4be87d": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.8
+    },
+    "classification_method": "openai"
+  },
+  "d9b9e62a535bd648ce983685d13787c5": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "76cca2bc1239c026cd394a482b1c7f57": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b8c08306e46b7bcc497e9b8926c949eb": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "407b7715907aa1e576a98292ef0f6226": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "65fa535b9ac976e9c5cb48b8d62dbddc": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "b7976a63ad8976c18c34c013251e919b": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ede9469bfb6679bae86c57679b3ab496": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "8de4f642aa568d4d5e676b84fc8c97a4": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ff3887e3ef74e4e00998752e995842a3": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "bec81dbf28e188d687d6118483ef387e": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "dcaeb0c7c477a83241e8eebdc225a32a": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "849c50d6205049e38d1a778f63e66dda": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "9dcdd186566da8316bf9a6616c899541": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "dde32918a9fb9915a18d704bbaee2784": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "26bc90e12aa2abf5e7f470e1f4f4c648": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ec2bfbee37c160cf50c4f92a3245a341": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6f410822f636be3759993dffc5f44f44": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d1b3f25ab4407b0f333a4faea4363850": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "8d8f6cd9a7ad021f43f0028be2a3b93c": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "56d58fdcf34e22df6a454759319666d3": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f068e00cccebba6d17fa16c396505145": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "2f33d7ca907186523f63a8da6107d1d2": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8a63844d750ca56929e13d306a2adaf5": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "5af6a6c1866b1bce492dfa69c2255892": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f64975386dc596b08af074914583f63f": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "9c1175162eb3f1beec57b344013eb0d5": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "81a78dc92c121382fd97e0a5d6be997e": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "a24aca3b456a9950475c9f79cfc1f23f": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f9ddb205d01e6227bcc423abfeb6f64b": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "1ce887d32b7d3da4609a857cd4a8811e": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d24a394003c1238139c93b8fcfbe9c79": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e47ff7d4d28197d11de798f025a1beaa": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "78060afcaad60cb64006cada398f2ef2": {
+    "topic": "Payment Problems",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "345df74e5e7137f5b8fc13c142161483": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "91f45a7e1b6f6c818a21789585a6fc27": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "4f8713b765ece2a0d6779f22a13a3910": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "f30c87b43670667d29e46c400fe0acc3": {
+    "topic": "Payment Problems",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "be807d80757a785c6a56a061767616a7": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a4623ed36f31fb3fe3b4ef6766142d9b": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "9a38e025392ce5bb23db92a94eb99a08": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e0254d6ace4bce933a60b38224ed3d05": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "396007c8093256e3eaca8815a248dab4": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "1c6a7270e1c496538cd143d5cee2afd0": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "793f01503ae366575bdb5ee0fa77dd43": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ce4b7096ca7d91f708327959a3412648": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c57cf90c00dfa232eee2fc1f0c52aaf8": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4e087dbe651583619de8acaeb4b057d3": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f07e085d591062b110eb653b363dc43e": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "0e46c669ca2a72c94ff85b635ed07f2f": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "cf56463ee9c13caa8b362f8b527d1eae": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d06ecd5e459fb646f476849bfe6aa7bd": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a74b4b8b8d4b2f776df0b35c1083e8e9": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a7a62820c85c1853fca10d77b080d22f": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "25afbfefbe3759487b554f033eee695a": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4b5f7ab9fbf67d6fd6ed4f2ffe8c6b06": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "683b8e10304ec5bbdedfe786554cd7a7": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "9f6dffe6814fced9d621fc0fe2244e3e": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "88f11bbd055b863fd88d95b3b92b2dcd": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "24df0e3d74e2f87875e4702b91153a4f": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8f90d6fce415b110c54b413de273af49": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "cf6b2cd6f36e19221cf49d0e7e3f6316": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "27ac3e73d2e6600fdde444ee83c92ba8": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8b417f6596df63883092cce4f1723003": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "fb75d4a8ab1a595d079725d098c7d67d": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "afa356e25a2c4a1496701b2a01e2f8b4": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "2982760353f71edbe5cb57fa47f2ca8e": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "5666dc9650464f89e3fecb42abb430cd": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "844bd2c4fe4f862aaae341c7f1973dc7": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c2d54b941e8cb27fc453e319af416407": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "34463fac75ef2fd2a0d7fd689492abc1": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c132768e3ce35a09446803aff642c473": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6f9941b15c5852abb2ba3fd6029c0f35": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "d0cd398c203cbbda0083c222a715887d": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "0529c9c7ab4fc903c2f55997685f4a04": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d2de0a854cb47f6c59ab02db23c719d6": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "5897a0e1912a80278b9bcd28c289a4b9": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "8fa22fb08577e0e8e6ce0b8e000765a2": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4a76c48d308020c06b6aafc121f2b150": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "3102d18a4d65d039ba01c620539931f4": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ae8eb28858e59080ce005365adfa6c2e": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "962a08250931a657cfc3c7e965aae21b": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "3397ec096ebdc9e2f65b1e76cbe2ea81": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "25d1d07e0e9d13bf6f72c1c78d513cd5": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c365f6468cb9e1e188452acba8f7a7c9": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "33ac93a9f04f92635ee1fa89c9e97101": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "76950996b6abba3532936d45a04bed59": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6a3aca71475ccbfa886e5a75a4e2351b": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "64b118fc822a2993fe4acd883e2711ee": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "3e9f654f659e5eac1d9e4ccf2e75795e": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "b7245d50e4572c03a4c613aaad592ab2": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b224fa178bb6c0e1f4989577ca9904d6": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "3387d33f799355d92abab369d92625b2": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "c8d2233a8fc1c1012f023618d1f9e9b4": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "47f4bc406599e454c5f973f5feaa6c5b": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "332733f44ae35f2b813fae20891824ff": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f91f2b20d7627f58d15f36859a771f1b": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d646eb6cff004a911faf4ca34341888c": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6333d71d57e390b6b1410d1f884ba674": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "1b650c491b70053bd923f1792a0f8895": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "0ef31166cff5b627d9ce21fd74cd0348": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "70c191d4811fbd68bc3b362442a6ee25": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "4362c72d1a1a0f770190377270233465": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "766b8e7420d4d7fb537d674702a5b83d": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7a4b0df61b15d7490eba228a48984e3a": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "ad06261cc27ee18e47ac3e703e07b540": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b113a752a12b3017267f988678937cb7": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "624b8c465e05aaf7a787909d0f12a7b8": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "37f23f801b33eefffbeeaab7f66a764c": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "73fb09bdd804fb964a7c9ab81cd15af2": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "2bd37c37efde9ab3ad09ba075c924226": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5fb1cb976483fae053c978565894fb6f": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "073b24cf5a2de86051ec8008c70177ab": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "39c3c184e00574fb4fecf2a050ddbff5": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "69e8dbba987ec479b469b66ca5ad8ac1": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "bfbcf97dccccfee1baa037e25cc24a34": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "08042d8131cebace8dc09ee75ed14ee2": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "da6068aa474bcc51ff9aac6150533c0a": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "32a2efea763c1312b95aaee993c6410f": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "fccb4741110f8ab914d1c64b4ec359c6": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5432a3655dc0fad6cfdb48e80d046d41": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b8a1e738ee30e8fea6fdb41e5a9cd4dc": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "2175682314aef56320c9792c860a9456": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "3a06d4ab4bcf92d813ff01bf23598779": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "4501fc0c91c10f4eab3b153adce14a4c": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "ee403b88621632add9ce23baae23ddbd": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "1f309db0faf7b3d2d95f9f92d9b1a3a2": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "00d873bec23649bcd9f23f66884bd0af": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "032337cbca7f39bb9e926345a0a1e865": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "2175d266970851848ea36e552cf2fe1f": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7d0356d21a297a8ba637c8ca978b7787": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5679df1bb197617abe6626614d5ac884": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a627d520cbd60d40acb0154b318c5820": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "53e99a53d939f7718ee63ef49edf6a01": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "01f0657228708f3a4c2fa4ed1ca1f8df": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "76b9c2a6d89f5f0d9473a93c8ce0ffec": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "96502a0377e1847beef77b4c46633b97": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5faf3c3ef4a6462171032e266ea5de34": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "c55618382376f408514cfd7b638905fe": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e38ff05e6215ac727d4bdf570925a7e7": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5c68340188615fe55de07169963b33f8": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "97a4a5012626f291634d723bf7b20619": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a13be379f7b1921bfca29352a963bc48": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "bf51dc565c7ef59217095bde049987a0": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "a5df17fe0493cb6a5a41f08c68dca8dc": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5d819a9c0c8ad509f975e911fbd2007f": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "0f3705ae5ee0b0725700442bfab2c108": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "01b181e6a4de6d0bb8b054d7d0671e69": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "9d81535bfc2335b55681d18e35666ae8": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "112468657168015b8f88125b4239709d": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c57839d7a2bb614157a1de1882cf56eb": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a31b77bf191dbf5ce13ee4945e129009": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8ad9ed45b6a37d42da5738435bac327c": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b24a02560fc425cb505f402de863c4a7": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "cd0387a733ad4ea26d880e64747b7f0e": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "0d922963eadb806e05e730966df692a6": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "544f635a6c5d2ed3df68c46248ab3e27": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4eb8a71c868fbd8ad1ce3d69d248a202": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "38a878abd9ee7f92ae500ade5d1f0e1d": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "e8d0dee9dca99ec645ccb76bc4a884fd": {
+    "topic": "Payment Problems",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "3ef8c49cabfbfc1833c547d50ddadd60": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "3b98395e10ab04b5db780447d4964cff": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "bf6d85a3976fabaec1a718f998c80c52": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8b23545c1f0b36fec7906b2ffceb2b9d": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b0b12ff4bf693a59a555613cface7936": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "aa67fd7e98971ee5ec0f91098949e5dd": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "0fbea9eb85782703ddbdd4fd2bff06ef": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b2ab595aff97c51b50a1024920db061e": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "7ca3375632549cfa361bb9055140e20a": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "90069362f004b6f2a0cbdff47aa32caa": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "a420b85950e18ca1394f1cbf586409c7": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "93b787e888cc8e4d3c8272582ae296d2": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4cb6a087344176102cefb3bccade973a": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e3aa572b827194f7c676187b2787840e": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "9c31b6030c5220273c6e5e6d48431bce": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "5736ccde50c6081da05359991f85a968": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "d7bf2e17e2ffba11c0984ad0a87d9a24": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "0981586d49566cdcc72aeca30b28982f": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b5bd9bf890b24164124ace94bbcbd160": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a71a6e49cd727eff2e49362b5c33b1d0": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4ca37707d9ec04b3f4ad457d9381b056": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "89d66eca8d2f5ca3b46bf3ba4c3c75ad": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "af7b712bec1b3df3645e0ac241dfb011": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c0db7255d3e1b70ff406d37cf8f0519b": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "966b5c0b4970a42ac7283b95f3cf1d4b": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "fccf5e199034ff04d31b557d78c48dd1": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "88ffc04c2ab255b64df70a2ba462e47d": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "76b43c4a1670a880a9beb722a818e160": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f2e4b3a8bc2357b209782705bca6cf73": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "823b44372cb82bab1961cfcd55bcc3f3": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "aa5ce2cd564948bcecfef5e0b0002948": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "df1a0ddcb33dbab3566080288c64d0c8": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "fbd0db9818f4a916ed5f41da3c82e227": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "33e78beb2d99b4db21ef6634913da69b": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "433dcc55e76a7006e102ec7e0ae3485a": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "ca3af576d00e591df03d01e04da19157": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "532c4eba8d8c19f77768a82dba6ea43b": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "580de8e468d786a722df14d9e4146515": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "f1ee351ad4cde484c70438e0f5f9888c": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "40b09843de69851ebecee33f8beb06c4": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "9df60753cee947703eb7f7e019895c58": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "d78b4deeabbae52f0d3a337c9f5724c9": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "bbc4143a9b4f852c73fec69c03190ba8": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "5e37d51964da385f989f8f0c8976f5c5": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "54dea6880bb128a6b2b34bcfb06a542f": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7f4bc88b6b1f48a3170db5f7fb495895": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "c0ee56318371b0aa25477ba72e6f40ba": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "dc36b6b3caf3aa93af1630c68e1970b5": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "d256cedd170d0b77672ef1045c5ede38": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4e8a8cb86f73c8e2338512f4b6449f0c": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b149a0e15b664d6d69498cd056e49fbe": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "8ea8bf1af0e1a1796636dc7f8452d5ee": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "285d90c210b5c3b73f1ba6315b8e0c9a": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.8
+    },
+    "classification_method": "openai"
+  },
+  "ad38241d1d804a7c1791cf53e724fbcf": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b42ed546b07d1665270df0fd3496eca3": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "58cfaa407a235d2ce4960ee83da23f82": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "2574116edb3d3dd8a767eff3ea428557": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "d7541efa657ae769be290f6d372a665f": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "dc280fbc926ae54a29a94cca7332fb60": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "73531b490bbb8ac2efd9b85adeba0f82": {
+    "topic": "Payment Problems",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "ae4805c3d2f7b343e5bd65ece9767fec": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "f9f0138da41d72ac0f715f21ffb2b051": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "96a619dccfeb601561c0175bae2bb771": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "35a29b291f56ef827c6435c4cb751db4": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "85ea3159c382986e11b1f1ba0b11646e": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "95cb6486038f1164560a1a2a92406f9b": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "d27fda62cd75c9a1f3cb431c93e6d5c3": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "d78a8ab168512d22ee0e6fc05de95a83": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b1cde093fc18d3ce61b0d84ac6c5c4f6": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "0cb8210cde4a26d24f8cedb429af3e25": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "9525413764d65700ef9dd958a97b190d": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "51870f934fcf395cffaf9f8f26b6a525": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "be5aad94657c51a5400cc408d64c78a7": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "3dab85326634a3e0c998c3fab91722ab": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "c67672c5705d9b1c1883d8beb1298a94": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "daf2a3451713f01d4debedf1fecc8174": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "bc1382e4b08b555ad71bf7f2942b75e0": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f1f096c277b86900cf613c6c0348dd34": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "c2474ccad0d369c991fc58e2db9c9ec6": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "78e6fb22ce07f51a39fc912f5a4f42e9": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "bda250abae1cea61d400c05f7716f27f": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f2e428f3164edf2295da5cd87dd464ab": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "2a394aab11fe5b8839238549697e32c4": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "e696d6c4cbcb46f152117c9c1ed6c687": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "21c593cb2f205dc8692c7f473ab1244b": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "783dc9ef47a4c88da4b01b5fcc225b20": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "f836aecbae83c3575b3b2d5e9b246c89": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "12826ec10535ae47c49f1df8d1ddad05": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "79f69eb7a5d32980dda35ac171afc1a8": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e1ba778100d16863c6586798245489bd": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "234f6b6d47d5fd5da11ae258bd810292": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b49fc1ab9596d23e8d85b2a9f1cb8536": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "68502c498d6737b909d11781e5ac13a9": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "35c27eacedf709a7ccbeec227e1d9a91": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "a0379911ea26d6973b180af683fe903a": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "d66d5df09c46a6c898459f3984a29186": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "52118aedb018851d13cfc87d0c57a61a": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "7085e9031af738992b46e77a1ab8aa85": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "871dbdc7f1e57101babc72fa21fbfe39": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "5d471c472281bf0ae18f2eef4ef8df8a": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "8da244b7d09787dc1044b3a120055f65": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "b112a3a3a90d0db2519a3be3978cc788": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "fd8a57b3140537509da26d27a1abd2b6": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "1f920d1d2b5b546426a9ffd2ae5b0334": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7c273e8e5556e4500be94cbb59f7fafe": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "55718f1d016c8dd0a22efafca1cccd9a": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.75,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "b3d0b46ed919185add1f679ff7641692": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4a11bfe651aeaa2360d8b70720f89de4": {
+    "topic": "Unexpected Charges & Pricing",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d7715f7c9c3d213d870cbd70f7cfbe52": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "87b2bda8a7986aabf9239869a8dddafe": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d1f253ad8e3e1c70f40225208a5bb15e": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "fb9d7d7d4541f97d81a9fa9f5c01bbb1": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "4e34666ef7d40428cb1d32b3affcf141": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "08ba90a9939a8c50a53bcf571030ea80": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "7e0c7bd2eb8f4aa18f6f72ec3d829c42": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "6362daf36f77d7d198fa94627577c6f0": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.92
+    },
+    "classification_method": "openai"
+  },
+  "d90e2e75a4b608ec6c3c5f0e02e21d8e": {
+    "topic": "Search & Filtering",
+    "topic_confidence": 0.88,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "e021c1d32e9b02c3bc43d1c9a324f152": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "89080dce08e2c7cfc32f19675ddecd0f": {
+    "topic": "Interface & Navigation",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "6068bd0180c555d459957082dafa6419": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "3a6a28a0f988334e7a69653eef474c48": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "d593b65b0ea536b625e65b73cc38ac76": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "eb588ba3cc5b02521b614b8c39f0ae8d": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "009f8c9195d4b2abc588ce8cc46a9755": {
+    "topic": "Customer Service",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "38c34f051114f0379b355df416c82f80": {
+    "topic": "Booking Process Issues",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  },
+  "eb0a1c2c456f1eff03e6f7f8071154b5": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.8,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.95
+    },
+    "classification_method": "openai"
+  },
+  "1f8db95df435c8397e98ff45dd1fe4bc": {
+    "topic": "Cancellation & Refunds",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": true,
+      "confidence": 0.9
+    },
+    "classification_method": "openai"
+  },
+  "6847d320640a2c1f96430a8914f69872": {
+    "topic": "App Stability & Performance",
+    "topic_confidence": 0.95,
+    "sentiment_validation": {
+      "is_correct": false,
+      "confidence": 0.85
+    },
+    "classification_method": "openai"
+  }
+}
