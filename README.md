@@ -35,12 +35,12 @@ Configuration is simplified with topics defined directly in code rather than YAM
 **Validation Approach:**
 Volume validation uses simple percentage point comparison (threshold: 15pp per topic) for interpretability and actionability - stakeholders can immediately understand which topics diverge and by how much. Sentiment validation focuses on accuracy (percentage of correct validations) and confidence scores rather than distribution matching, as the validation task is to check if existing labels are correct, not to match artificial distributions.
 
-> **⚠️ ML Data Limitation:** The ML model was trained on only 678 tickets (insufficient for making any decisions). The 94.9% test accuracy is a proof-of-concept demonstrating feasibility, not production-validated performance.
+> **ML Data Limitation:** The ML model was trained on only 678 tickets (insufficient for making any decisions). The 94.9% test accuracy is a proof-of-concept demonstrating feasibility, not production-validated performance.
 
 ## Results
 
 ### GPT-4o-mini
-- ✅ Volume validation: PASS (all topics within 15pp)
+- Volume validation: PASS (all topics within 15pp)
 - Sentiment accuracy: 81.6% (553/678)
 - Confidence: 0.858 (topic), 0.887 (sentiment)
 
