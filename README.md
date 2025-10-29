@@ -140,6 +140,25 @@ make validate-volume  # Validate topic volume distribution
 make generate-report  # Generate report
 ```
 
+## Development
+
+### Code quality
+```bash
+make lint          # Run linter with auto-fix
+make format        # Format code
+make check-format  # Check without modifying
+```
+
+### Pre-commit hooks
+Hooks run automatically on `git commit`. To run manually:
+```bash
+pre-commit run --all-files
+```
+
+The project uses:
+- **ruff**: Fast Python linter and formatter (10-100x faster than pylint/flake8/black)
+- **pre-commit**: Automatic checks on commit (linting, formatting, YAML/JSON validation)
+
 ## Output files
 
 `report.md` / `report_ml.md` - Validation reports

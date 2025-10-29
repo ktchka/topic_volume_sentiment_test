@@ -1,6 +1,6 @@
 # Simple Topic Volume & Sentiment Validation Makefile
 
-.PHONY: help setup classify classify-rules classify-ml train-ml validate-volume generate-report compare all all-ml clean
+.PHONY: help setup classify classify-rules classify-ml train-ml validate-volume generate-report compare all all-ml lint format check-format install-hooks clean
 
 # Default target
 help:
@@ -20,6 +20,12 @@ help:
 	@echo "  all-ml           - Run complete validation pipeline (ML)"
 	@echo "  clean            - Clean up generated files"
 	@echo ""
+	@echo "Development:"
+	@echo "  install-hooks    - Install pre-commit hooks"
+	@echo "  lint             - Run ruff linter with auto-fix"
+	@echo "  format           - Run ruff formatter"
+	@echo "  check-format     - Check code formatting without changes"
+	@echo ""
 	@echo "Prerequisites:"
 	@echo "  - Set OPENAI_API_KEY environment variable (for OpenAI mode)"
 	@echo "  - Run 'make setup' first"
@@ -30,6 +36,8 @@ setup:
 	uv venv
 	uv pip install -r requirements.txt
 	mkdir -p data/derived data/artifacts
+	@echo "Installing pre-commit hooks..."
+	uv run pre-commit install || echo "Pre-commit hooks installation skipped"
 	@echo "Setup complete!"
 	@echo "To activate the virtual environment, run: source .venv/bin/activate"
 
@@ -125,8 +133,31 @@ clean:
 	rm -rf data/derived/*.json
 	rm -rf data/artifacts/*.json
 	rm -rf data/artifacts/*.png
-	rm -f report.md
+	rm -f report.md report_ml.md
 	@echo "Cleanup complete!"
+
+# Development targets
+# Install pre-commit hooks
+install-hooks:
+	@echo "Installing pre-commit hooks..."
+	uv run pre-commit install
+	@echo "Pre-commit hooks installed!"
+
+# Run linter with auto-fix
+lint:
+	@echo "Running ruff linter..."
+	uv run ruff check src/ --fix
+
+# Run formatter
+format:
+	@echo "Running ruff formatter..."
+	uv run ruff format src/
+
+# Check formatting without changing files
+check-format:
+	@echo "Checking code formatting..."
+	uv run ruff format src/ --check
+	uv run ruff check src/
 
 # Quick test run
 test:
