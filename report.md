@@ -1,6 +1,6 @@
 # Topic Volume & Sentiment Validation Report
 
-**Volume Validation Status: ✅ PASS**
+**Volume Validation Status: PASS**
 
 **Overall Sentiment Validation Accuracy: 81.6%**
 
@@ -24,7 +24,7 @@
 
 ## Volume Validation
 
-**Status**: ✅ PASS
+**Status**: PASS
 
 **Max difference allowed**: 15.0 percentage points
 
@@ -36,15 +36,15 @@
 
 | Topic | System % | Reference % | Difference | Status |
 |-------|----------|-------------|------------|--------|
-| App Stability & Performance | 19.9% | 10.0% | 9.9pp | ✅ |
-| Unexpected Charges & Pricing | 17.8% | 15.0% | 2.8pp | ✅ |
-| Customer Service | 17.1% | 8.0% | 9.1pp | ✅ |
-| Booking Process Issues | 15.8% | 25.0% | 9.2pp | ✅ |
-| Interface & Navigation | 13.1% | 13.0% | 0.1pp | ✅ |
-| Search & Filtering | 10.2% | 0.0% | 10.2pp | ✅ |
-| Payment Problems | 3.1% | 0.0% | 3.1pp | ✅ |
-| Cancellation & Refunds | 2.9% | 5.0% | 2.1pp | ✅ |
-| Data & Privacy | 0.0% | 0.0% | 0.0pp | ✅ |
+| App Stability & Performance | 19.9% | 10.0% | 9.9pp | PASS |
+| Unexpected Charges & Pricing | 17.8% | 15.0% | 2.8pp | PASS |
+| Customer Service | 17.1% | 8.0% | 9.1pp | PASS |
+| Booking Process Issues | 15.8% | 25.0% | 9.2pp | PASS |
+| Interface & Navigation | 13.1% | 13.0% | 0.1pp | PASS |
+| Search & Filtering | 10.2% | 0.0% | 10.2pp | PASS |
+| Payment Problems | 3.1% | 0.0% | 3.1pp | PASS |
+| Cancellation & Refunds | 2.9% | 5.0% | 2.1pp | PASS |
+| Data & Privacy | 0.0% | 0.0% | 0.0pp | PASS |
 
 ## Per-Topic Sentiment Analysis
 
@@ -59,7 +59,7 @@
   - Correct: 256
   - Incorrect: 50
   - Avg confidence: 0.891
-- **Merged topics**: Booking Process Issues, Search & Filtering, Cancellation & Refunds, Payment Problems, Interface & Navigation
+- **Merged topics**: Interface & Navigation, Cancellation & Refunds, Payment Problems, Search & Filtering, Booking Process Issues
 
 ### App Stability & Performance
 
@@ -97,23 +97,9 @@
   - Incorrect: 13
   - Avg confidence: 0.874
 
-## Recommendations
-
 ### Sentiment Validation Issues
 
 The following topics have low sentiment validation accuracy:
 
 - **App Stability & Performance**: 73.3%
 - **Unexpected Charges & Pricing**: 78.5%
-
-**Actions:**
-- Review sentiment labels for these topics
-- Consider if sentiment definitions are appropriate for topic context
-- Verify sentiment labeling consistency
-
-### General Improvements
-
-- Regularly update and validate reference distributions
-- Monitor classification confidence scores over time
-- Consider topic-specific sentiment validation rules
-- Increase sample size for topics with low confidence
