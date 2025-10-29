@@ -4,8 +4,6 @@ This project validates a system that classifies Booking.com reviews into 9 topic
 
 ## Current implementation
 
-## Current implementation
-
 In this project, I built a simplified topic classification and sentiment validation system for Booking.com customer reviews. The system processes 678 review tickets and performs two main tasks:
 
 **Task 1: Topic Classification**  
@@ -51,6 +49,7 @@ Volume validation uses simple percentage point comparison (threshold: 15pp per t
 - Sentiment validation: 100% (rule-based)
 - Speed: 100x faster, $0 cost
 
+### Methods Comparison
 
 | Method | Topic Accuracy | Sentiment Validation | Speed | Cost | When to Use |
 |--------|----------------|---------------------|-------|------|-------------|
@@ -83,7 +82,7 @@ Depending on resources, I'd fine-tune sentence-transformers or use a BERT varian
 ## Technical details
 
 
-## Key Technical Decisions
+### Key Technical Decisions
 
 **Why single API call?**  
 Combining topic + sentiment in one call reduces cost by 50% and latency by ~50%.
@@ -98,7 +97,7 @@ Demonstrates production scalability path: GPT for initial labeling → ML for co
 Rare topics (<5% each) merged to "Other" prevents metric skewing and focuses analysis on major issues.
 9 predefined categories: Unexpected Charges & Pricing, App Stability & Performance, Booking Process Issues, Customer Service, Payment Problems, Search & Filtering, Cancellation & Refunds, Interface & Navigation, Data & Privacy.
 
-## Installation
+### Installation
 
 1. **Run setup (installs dependencies and creates directories):**
 ```bash
@@ -116,9 +115,9 @@ mkdir -p data/derived data/artifacts
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
-## Usage
+### Usage
 
-### Quick Start
+#### Quick Start
 
 ```bash
 # Run complete pipeline with GPT-4o-mini (requires API key)
@@ -160,6 +159,7 @@ The project uses:
 - **pre-commit**: Automatic checks on commit (linting, formatting, YAML/JSON validation)
 
 ## Output files
+### Output files
 
 `report.md` / `report_ml.md` - Validation reports
 
