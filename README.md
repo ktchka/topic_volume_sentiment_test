@@ -37,18 +37,6 @@ Volume validation uses simple percentage point comparison (threshold: 15pp per t
 
 > **ML Data Limitation:** The ML model was trained on only 678 tickets (insufficient for making any decisions). The 94.9% test accuracy is a proof-of-concept demonstrating feasibility, not production-validated performance.
 
-## Results
-
-### GPT-4o-mini
-- Volume validation: PASS (all topics within 15pp)
-- Sentiment accuracy: 81.6% (553/678)
-- Confidence: 0.858 (topic), 0.887 (sentiment)
-
-### ML (TF-IDF + Logistic Regression)
-- Test accuracy: 94.9% (vs GPT baseline)
-- Sentiment validation: 100% (rule-based)
-- Speed: 100x faster, $0 cost
-
 ### Methods Comparison
 
 | Method | Topic Accuracy | Sentiment Validation | Speed | Cost | When to Use |
