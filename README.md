@@ -61,7 +61,7 @@ Volume validation uses simple percentage point comparison (threshold: 15pp per t
 **Rules achieve 100% because they accept all existing labels as correct
 *ML approach requires initial training on GPT-labeled data
 
-> The details can be read in the report
+> The details can be read in the [GPT report](report.md) and [ML report](report_ml.md)
 
 ## Important note
 
